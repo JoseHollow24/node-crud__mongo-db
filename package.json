@@ -1,0 +1,20 @@
+{
+  "name": "node_crund",
+  "version": "1.0.0",
+  "description": "pequeño crud armado en node",
+  "license": "ISC",
+  "author": "José Aguilar",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/asp.js",
+    "start": "node src/asp.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
